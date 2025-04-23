@@ -20,10 +20,15 @@ This guide automates the infrastructure setup for deploying [OWASP Juice Shop](h
 
 terraform-juice-shop/ 
 ├── main.tf # Core infrastructure 
+
 ├── security_groups.tf # Security group definitions 
+
 ├── variables.tf # (Optional) Input variables 
+
 ├── outputs.tf # Output IPs and values 
+
 ├── provider.tf # AWS provider setup 
+
 ├── user_data.sh # Docker + Juice Shop script
 
 
