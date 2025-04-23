@@ -1,0 +1,8 @@
+aws-juice-shop/
+│
+├── main.tf             # VPC, subnets, gateways, EC2
+├── variables.tf        # Reusable variables
+├── outputs.tf          # Useful outputs (e.g., public IP)
+├── provider.tf         # AWS provider settings
+├── security_groups.tf  # Security group rules
+├── user_data.sh        # Docker install + Juice Shop run

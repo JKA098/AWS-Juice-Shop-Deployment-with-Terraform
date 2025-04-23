@@ -1,0 +1,5 @@
+user_data = file("user_data.sh")
+
+To deploy:
+    terraform init
+    terraform apply
